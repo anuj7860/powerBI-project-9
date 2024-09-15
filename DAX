@@ -1,0 +1,7 @@
+background_color = var selected =SELECTEDVALUE(Colors[Background]) RETURN IF(ISBLANK(selected),"light",selected)
+
+shadow_cr = var selected = SELECTEDVALUE(Colors[Shadow]) RETURN IF(ISBLANK(selected),"Light",selected)
+
+Text_Color = var selected =SELECTEDVALUE(Colors[Text]) RETURN IF(ISBLANK(selected),"light",selected)
+
+visual_color = var selected =SELECTEDVALUE(Colors[Visual Background]) RETURN IF(ISBLANK(selected),"light",selected)
